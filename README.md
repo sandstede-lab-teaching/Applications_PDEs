@@ -9,4 +9,4 @@ This repository contains the Jupyter notebooks written in Python that illustrate
 * Stochastic population model: compares the dynamics of the logistic ODE with multiplicative noise to the stationary solution of the associated Fokker-Planck equation
 * Stochastic wealth distribution model: compares the dynamics of a stochastic ODE model for the distribution of wealth with stationary solutions of the associated Fokker-Planck equations, and illustrates Pareto indices
 
-These notebooks require ipywidgets, math, matplotlib, numpy, and scipy.
+These notebooks run on a JupyterLab (which can be installed using, for instance, [Anaconda]{https://www.anaconda.com}) with a Python 3 kernel. The notebooks require the modules ipywidgets, math, matplotlib, numpy, and scipy. If IPython is used, replace '%matplotlib widget' with '%matplotlib notebook' in each notebook.
